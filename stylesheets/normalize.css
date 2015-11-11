@@ -21,7 +21,8 @@ body {
   background:url('../images/back.jpg')no-repeat scroll 0% 0% / cover transparent;;
 }
 
-.nav{
+@media screen and (min-width:500px) {
+  .nav{
   float:left;
   width:30%;
   text-align: center;
@@ -29,8 +30,10 @@ body {
 .main{
   float:right;
   width:60%;
-  margin-right: 70px;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-top:100px;
+}
 }
 
 h1{
@@ -126,6 +129,35 @@ h3{
 
 }
 
+@media screen and (max-width:960px) {
+  .m_li{
+    float:left;
+    width:45%;
+    margin-right: 3%;
+    margin-bottom: 1em;
+  }
+}
 
+@media screen and (max-width:500px) {
+  .nav{
+
+  }
+  .main{
+
+  }
+  .nav_img{
+    width:60%;
+    text-align: center;
+  }
+
+
+
+
+  .m_li{
+    width:95%;
+    margin-right: 3%;
+    margin-bottom: 1em;
+  }
+}
 /* HTML5 display definitions
    ========================================================================== */
