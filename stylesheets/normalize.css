@@ -18,6 +18,7 @@ html {
 
 body {
   margin: 0;
+  background:url('../images/back.jpg')no-repeat scroll 0% 0% / cover transparent;;
 }
 
 .nav{
@@ -29,32 +30,102 @@ body {
   float:right;
   width:60%;
   margin-right: 70px;
+  margin-top:100px;
 }
+
+h1{
+  font: 2em "Hoefler Text","Baskerville old face",Garamond,"Times New Roman",serif;
+  font-family: "Hoefler Text","Baskerville old face",Garamond,"Times New Roman",serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+  -x-system-font: none;
+  -moz-font-feature-settings: normal;
+  -moz-font-language-override: normal;
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+p{
+  margin-top:2em;
+  font: "Hoefler Text","Baskerville old face",Garamond,"Times New Roman",serif;
+  line-height: 30px;
+  font-size:18px;
+  text-align:left;
+
+}
+span{
+  margin-top:2em;
+  font: "Hoefler Text","Baskerville old face",Garamond,"Times New Roman",serif;
+  line-height: 30px;
+  font-size:15px;
+  text-align:center;
+}
+
 img{
-  width:250px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0px auto 1em;
+  width: 100%;
+
 }
+
+.nav_img{
+  width:70%;
+  text-align: center;
+}
+
 .one_m_img{
-  width:200px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0px auto 1em;
+  width: 100%;
+  text-align: left;
 }
 .main_img{
   text-align: center;
-  margin: 50px;
+  margin-top: 50px;
 }
 ol,ul{
   list-style:none;
+  text-align: center;
 }
 .m_li{
   float:left;
   width:30%;
   margin-right: 3%;
+  margin-bottom: 1em;
+}
+
+.bord{
+  margin: 6em auto -30px;
+  border-bottom: 1px solid gray;
+}
+h3{
+
 }
 .clear{
   clear:both;
 }
 .footer{
   text-align: center;
-  padding:100px;
+  border-top: 1px solid gray;
+  margin-top: 40px;
 }
+
+.one_bar{
+  border-bottom: 1px solid gray;
+  margin:50px;
+  font-style:normal;
+  font:15px Baskerville,Garamond,Palatino,"Palatino Linotype","Hoefler Text","Times New Roman",serif;
+
+}
+
 
 /* HTML5 display definitions
    ========================================================================== */
